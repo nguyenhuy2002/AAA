@@ -1,0 +1,71 @@
+.create-project-form {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2.5px solid rgb(0, 179, 255);
+}
+
+.create-project-form h2 {
+  margin-bottom: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.create-project-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-project-form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 18px;
+}
+
+.create-project-form input[type="text"],
+.create-project-form textarea {
+  max-width: 96%;
+  height: 30px;
+  min-height: 30px;
+  min-width: 96%;
+  width: auto;
+  max-height: 200px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.create-project-form textarea {
+  min-height: 50px;
+}
+.create-project-form select {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.create-project-form button[type="submit"] {
+  margin: 25px auto;
+  font-weight: bold;
+  font-size: 18px;
+  width: 220px;
+  height: 50px;
+  padding: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.create-project-form ul li {
+  color: #000;
+}
